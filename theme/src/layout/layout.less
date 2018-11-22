@@ -1,0 +1,102 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+
+ p {
+  margin: 24px;
+ }
+
+ h4 {
+     margin-left: 24px;
+ }
+
+ h1 {
+     margin-left: 24px;
+     margin-top: 24px;
+ }
+
+ * {
+     box-sizing: border-box;
+ }
+
+ .wrap-all {
+     max-width: 800px;
+     margin: auto;
+
+ }
+
+
+/*Header*/
+.region-header-col-1 {
+    overflow: auto; /* clear fix to make div span all elements */
+    padding: 1em;
+}
+
+.site-logo-text a {
+    color: orange;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.my-navbar {
+    list-style: none;
+    text-align: center;
+}
+
+.my-navbar li {
+    display: inline-block;
+}
+
+ .site-logo {
+     display: none;
+ }
+
+/*Footer*/
+ .footer-column {
+     width: 33%;
+     display: inline-block;
+     max-height: 30%;
+     background-color: orange;
+     border-radius: 10px;
+ }
+
+ .block.site-footer {
+     text-align: center;
+ }
+
+ .outer-wrap.outer-wrap-footer {
+     padding-top: 24px;
+     box-sizing: border-box;
+     background-color: white;
+ }
+
+ .block.toc {
+     float: left;
+     max-width: 30%;
+     padding-right: 24px;
+ }
+
+.region-sidebar-left,
+.region-sidebar-right {
+    width: 30%;
+    float: left;
+}
+
+.region-main.has-sidebar {
+    width: 70%;
+    float: left;
+    min-height: 27em;
+
+}
+
+.region-main {
+    min-height: 45em;
+
+}

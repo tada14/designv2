@@ -1,0 +1,273 @@
+/*!
+ * LESS version of the stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Its intention is to
+ * use kmom01.css and lessify the style and use this as a wrapper for the new
+ * style.
+ */
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+/*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */
+/* Hide submenu, leave this to kmom02 */
+.rm-desktop ul {
+  display: none;
+}
+/* Hide responsive/mobile menu, leave this to kmom02 */
+.rm-navbar-max {
+  display: none;
+}
+html {
+  background-color: orange;
+}
+main {
+  min-height: 50em;
+}
+body {
+  background-color: orange;
+}
+p {
+  margin: 24px;
+}
+* {
+  box-sizing: border-box;
+}
+.wrap-all {
+  max-width: 800px;
+  margin: auto;
+  background-color: white;
+}
+.site-logo {
+  display: none;
+}
+.footer-column {
+  width: 33%;
+}
+.region-header-col-1 {
+  overflow: auto;
+  /* clear fix to make div span all elements */
+  padding: 1em;
+}
+.site-logo-text a {
+  color: orange;
+  font-size: 40px;
+  text-decoration: none;
+}
+.my-navbar {
+  list-style: none;
+  text-align: center;
+}
+.my-navbar li {
+  display: inline-block;
+}
+img {
+  float: left;
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+.footer-column {
+  display: inline-block;
+  max-height: 30%;
+}
+.block.site-footer {
+  text-align: center;
+}
+h4 {
+  margin-left: 24px;
+}
+h1 {
+  margin-left: 24px;
+  margin-top: 24px;
+}
+.block.toc {
+  float: left;
+  max-width: 30%;
+  padding-right: 24px;
+}
+.outer-wrap-footer {
+  padding-top: 24px;
+  box-sizing: border-box;
+}
+.region-sidebar-right {
+  margin-left: 64px;
+}
+.region-sidebar-left,
+.region-sidebar-right {
+  display: inline;
+  float: left;
+  width: 30%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.region-main.has-sidebar-right {
+  display: inline;
+  float: left;
+  width: 65%;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+/**
+ * Style for the stylechooser.
+ */
+/**
+ * Variables
+ */
+/**
+ * Style
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+html {
+  overflow-y: scroll;
+  background-color: orange;
+}
+body {
+  margin: 8px auto;
+  padding: 8px;
+  border-radius: 10px;
+  color: #333;
+  max-width: 900px;
+  background-color: white;
+  font: 100.01%/1 serif;
+}
+img {
+  float: left;
+  margin-right: 24px;
+  margin-bottom: 24px;
+  max-width: 100%;
+}
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Variables
+ */
+p {
+  margin: 24px;
+}
+h4 {
+  margin-left: 24px;
+}
+h1 {
+  margin-left: 24px;
+  margin-top: 24px;
+}
+* {
+  box-sizing: border-box;
+}
+.wrap-all {
+  max-width: 800px;
+  margin: auto;
+}
+/*Header*/
+.region-header-col-1 {
+  overflow: auto;
+  /* clear fix to make div span all elements */
+  padding: 1em;
+}
+.site-logo-text a {
+  color: orange;
+  font-size: 40px;
+  text-decoration: none;
+}
+.my-navbar {
+  list-style: none;
+  text-align: center;
+}
+.my-navbar li {
+  display: inline-block;
+}
+.site-logo {
+  display: none;
+}
+/*Footer*/
+.footer-column {
+  width: 33%;
+  display: inline-block;
+  max-height: 30%;
+  background-color: orange;
+  border-radius: 10px;
+  min-height: 10em;
+}
+.block.site-footer {
+  text-align: center;
+}
+.outer-wrap.outer-wrap-footer {
+  padding-top: 24px;
+  box-sizing: border-box;
+  background-color: white;
+}
+.block.toc {
+  float: left;
+  max-width: 30%;
+  padding-right: 24px;
+}
+.region-sidebar-left,
+.region-sidebar-right {
+  width: 30%;
+  float: left;
+}
+.region-main.has-sidebar {
+  width: 70%;
+  float: left;
+  min-height: 27em;
+}
+.region-main {
+  min-height: 45em;
+}
+/**
+ * Layout for responsive style through media queries.
+ */
+@media screen and (max-width: 1500px) {
+  .site-logo {
+    display: none;
+  }
+}
+/**
+ * Show off the regions used in the website, to ease styling.
+ */
+.regions .outer-wrap {
+  background-color: #f4e3c9;
+  border: 1px solid #e3b774;
+}
+.regions .inner-wrap {
+  background-color: #f4e0e9;
+  border: 1px solid #d995b4;
+}
+.regions .region-header-col-1,
+.regions .region-header-col-2,
+.regions .region-header-col-3,
+.regions .region-flash,
+.regions .region-breadcrumb,
+.regions .region-flash-message,
+.regions .region-columns-above,
+.regions .region-main,
+.regions .region-after-main,
+.regions .region-columns-below,
+.regions .region-sidebar-left,
+.regions .region-sidebar-right,
+.regions .region-footer,
+.regions .region-footer-column-1,
+.regions .region-footer-column-2,
+.regions .region-footer-column-3 {
+  background-color: #b5dce1;
+  border: 1px solid #6cbac4;
+  color: #111;
+}
+/**
+ * My own settings, not currently in their own module.
+ */

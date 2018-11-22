@@ -1,1 +1,1 @@
-Copyright 2018 och Tamina Sjöstrand.
+Copyright 2018 Tamina Sjöstrand.

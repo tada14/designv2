@@ -1,3 +1,3 @@
 #### Redovisa på GitHub
 
-Skriv något kort om ditt redovisa-repo och länka till [repot för me/redovisa på GitHub](https://github.com/tada14/designv2.git).
+Mitt redovisa-repo: [repot för me/redovisa på GitHub](https://github.com/tada14/designv2.git).

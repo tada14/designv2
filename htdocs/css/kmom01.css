@@ -5,33 +5,31 @@
  * to style up the website so it is useable.
  */
 
-/* Hide submenu, leave this to kmom02 */
+/* Hide submenu, leave this to kmom02 
 .rm-desktop ul {
     display: none;
 }
 
-/* Hide responsive/mobile menu, leave this to kmom02 */
+/* Hide responsive/mobile menu, leave this to kmom02
 .rm-navbar-max {
     display: none;
 }
 
-html {
-    background-color: orange;
+/*html {
+   background-color: orange;
 }
+*/
 main {
     min-height: 50em;
 }
 
-body {
+/*body {
     background-color: orange;
-}
+*/
 
 
 p {
-    margin-top: 24px;
-    margin-bottom: 24px;
-    margin-left: 24px;
-    margin-right: 24px;
+ margin: 24px;
 }
 
 * {
@@ -50,7 +48,6 @@ p {
 
 .footer-column {
     width: 33%;
-
 }
 
 .region-header-col-1 {
@@ -70,7 +67,7 @@ p {
 }
 
 .my-navbar li {
-        display: inline-block;
+    display: inline-block;
 }
 
 img {
@@ -87,6 +84,7 @@ img {
 .block.site-footer {
     text-align: center;
 }
+
 h4 {
     margin-left: 24px;
 }
@@ -111,7 +109,8 @@ h1 {
     margin-left: 64px;
 }
 
-.region-sidebar-left, .region-sidebar-right {
+.region-sidebar-left,
+.region-sidebar-right {
     display: inline;
     float: left;
     width: 30%;
