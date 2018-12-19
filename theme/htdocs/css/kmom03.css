@@ -4343,7 +4343,6 @@ body {
   color: #333;
   max-width: 1100px;
   background-color: white;
-  font: 16px/1.375 "sans-serif";
 }
 img {
   float: left;
@@ -4356,7 +4355,6 @@ H1,
 H4,
 a {
   padding-left: 10px;
-  padding-right: 10px;
 }
 h1,
 h2,
