@@ -25,6 +25,11 @@ return [
             "title" => "Rapport kmom04.",
         ],
         [
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "Blogg",
+        ],
+        [
             "text" => "Om",
             "url" => "om",
             "title" => "Om denna webbplats.",
@@ -39,10 +44,10 @@ return [
             "url" => "verktyg",
             "title" => "Verktyg och möjligheter för utveckling.",
         ],
-        [
-            "text" => "Test",
-            "url" => "test",
-            "title" => "Testa olika konstruktioner.",
-        ],
+    //    [
+    //        "text" => "Test",
+    //        "url" => "test",
+    //        "title" => "Testa olika konstruktioner.",
+    //    ],
     ],
 ];

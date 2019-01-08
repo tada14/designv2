@@ -10,9 +10,9 @@ Urval
 
 Ett av mina intressen är att klättra och därför valde jag att söka på ”klätterhall Stockholm” och tog de tre översta hemsidorna som dök upp på Google. Jag hade en tes om att det inte skulle vara så avancerade och designande hemsidor.
 Följande hemsidor användes:
-https://www.klatterverket.se/
-http://www.klattercentret.se/
-http://karbin.com/
+[Klätterverket](https://www.klatterverket.se/)
+[Klättercentret](http://www.klattercentret.se/)
+[Karbin](http://karbin.com/)
 Metod
 -----------------------
 Snapshots togs av varje hemsidas indexsida. Sedan användes verktygen ”colorZilla” för att kunna ta ut färgpaletter. Därefter analyserades varje hemsida utifrån färgscheman, typografi och vilken känsla hemsidan gav.
@@ -87,7 +87,7 @@ H1 är "Helvetica Neue",Helvetica, Arial, sans-serif. Brödtexten är 'ff-tisa-w
 
 Något enkel sida som saknar det lilla extra.
 
-www.karbin.se
+www.karbin.com
 -------------
 
 [FIGURE src="image/karbin.png?w=800"]
