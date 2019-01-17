@@ -13,7 +13,7 @@ views:
 Taminas sida i kursen design
 =========================
 
-[FIGURE src="image/Tamina.jpg?w=200" class="right"]
+[FIGURE src="image/Tamina.jpg?w=250" class="right"]
 
 Hej jag heter Tamina. Mitt namn är hämtat från Wolfgang Amadeus Motzarts opera Trollflöjten där prinsen heter Tamino och prinsessan heter Pamina. Kanske var det min mors kärlek till opera som fick mig ett söka mig till mitt första yrke som var maskör. Jag arbetade ca 10 år som maskör, frisör och perukmakare vid TV, film och teater.
 

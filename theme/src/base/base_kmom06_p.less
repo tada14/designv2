@@ -1,0 +1,66 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: black; //#424242;
+@bgColorBody: black; // #fff;
+@colorBody: #929292;
+@fontFamilyBody: serif;
+// Activate the grid base font
+
+
+html {
+    overflow-y: scroll;
+    background: url(../../htdocs/img/stone.png) no-repeat left fixed;
+    background-size: contain;
+    background-color: @bgColorHtml;
+}
+
+body {
+    color: @colorBody;
+    opacity: 0.9;
+
+    max-width: 900px;
+    float: right;
+    background-color: @bgColorBody;
+    #desinax-hgrid.font(@fontSizeBody);
+    font: 100.01%/1 @fontFamilyBody;
+}
+
+img {
+    float: left;
+    clear: both;
+    max-width: 100%;
+    filter: grayscale(100%);
+
+}
+
+p,
+H1,
+H4,
+a {
+    padding-left: 10px;
+}
+
+H1,
+H2,
+H4,
+a {
+    color: orange;
+}
+
+.column.footer-column {
+    text-align: center;
+}
+
+.site-footer {
+    color: orange;
+}
+.my-navbar{
+    display: none;
+}
+
+.fas.fa-bars.rm-button-face-1 {
+    color: orange;
+}
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();

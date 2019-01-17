@@ -4821,7 +4821,6 @@ hr::after {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   display: inline-block;
-  background-color: orange;
   border-radius: 10px;
 }
 .site-footer {
@@ -4833,7 +4832,6 @@ hr::after {
   margin-right: 0.52083333%;
 }
 .outer-wrap.outer-wrap-footer {
-  padding-top: 24px;
   box-sizing: border-box;
   background-color: white;
 }
