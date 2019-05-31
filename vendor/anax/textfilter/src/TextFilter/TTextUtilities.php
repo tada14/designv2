@@ -138,7 +138,7 @@ trait TTextUtilities
     public function createAnchor4Header($text, $start = 1, $stop = 4)
     {
         $level = "$start-$stop";
-        $pattern = "#(<h[$level] id=\"([\w-_]+)\">)(.+)(</h[$level]>)#";
+        $pattern = "#(<h[$level] id=\"([\w\-_]+)\">)(.+)(</h[$level]>)#";
 
         return preg_replace(
             $pattern,
@@ -146,6 +146,8 @@ trait TTextUtilities
             $text
         );
     }
+
+
 
 
 
@@ -186,7 +188,7 @@ trait TTextUtilities
     public function addBaseurlToImageSource($text, $baseurl, $callback)
     {
         $pattern = "#<img(.+?)src=\"([^\"]*)\"(.*?)>#";
-        
+
         return preg_replace_callback(
             $pattern,
             function ($matches) use ($baseurl, $callback) {
@@ -213,10 +215,10 @@ trait TTextUtilities
      */
     public function addRevisionHistory($text, $revision, $start, $end, $class, $source = null)
     {
-        
+
         $text  = $text . $start;
         $text .= "<ul class=\"$class\">\n";
-        
+
         foreach ($revision as $date => $info) {
             $text .= "<li>$date: $info</li>\n";
         }
